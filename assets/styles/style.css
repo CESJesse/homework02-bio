@@ -1,0 +1,36 @@
+#name {
+    font-family:'Lato', sans-serif;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif; 
+}
+
+
+img.wrap {
+    float: right;
+}
+
+h3 {
+    text-align: center;
+}
+
+#centerp {
+    text-align: center;
+}
+
+#header {
+    margin-left: -18px;
+    margin-right: -18px;
+    margin-top: -18px;
+    padding-left:  -40px;
+}
+
+
+#border {
+    border-style:  solid;
+    border-color:  lightgrey;
+    width: 50 px;
+    margin: 1px;
+}
+

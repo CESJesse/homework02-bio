@@ -4,16 +4,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
   <title>Jesse Truax | About</title>
+  
 </head>
 
-<body>
+<body class="p-3 mb-2 bg-info text-white">
 
-  <Header class="container-fluid">
-    <h1 class="col-12">
+  <!-- Navigation Bar with Links -->
+  <Header id="header">
+    <div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">Jesse Truax</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -32,24 +37,25 @@
           </ul>
         </div>
       </nav>
-    </h1>
+    </div>
   </Header>
 
-  <Main>
+  <!-- Main area with bio, professional photo, and links -->
+  <Main class="p-3 mb-2 bg-light text-dark">
     <div class="container">
       <div class="row">
-        <div class="col-6">
-          <h1>
-            About Me
+        <div class="col-12 col-md-6">
+          <h1 id="name">
+            Jesse Truax | Clean Energy 
           </h1>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-6">
-          <img src="assets/images/Professional_Image.png" class="img-fluid" alt="responsive image" alt="Jesse Truax">
+        <div class="col-12 col-lg-8">
+          <img class="img-fluid col-6 float-left" class="Responsive image" src="assets/images/Professional_Image.png">
 
-          <p>
+          <p class="lato">
             As a passionate clean energy enthusiast and environmental advocate, I have utilized my skills and abilities
             to educate consumers about the economic and environmental benefits of going solar. I've been at my best in
             situations that require exponential growth....as the first marketing executive of a community solar
@@ -60,7 +66,7 @@
             resulted in tens of thousands of solar installations.
           </p>
 
-          <p>
+          <p class="lato">
             In 2020, I decided to utilize these skills and abilities to tackle a new challenge in the clean energy
             industry...helping the industry build a superior workforce, designed to tackle all of our industry's growth
             challenges, so that we can create a cleaner planet for generations to come. Over the coming years and
@@ -69,7 +75,7 @@
             professional growth within our industry.
           </p>
 
-          <p>
+          <p class="lato">
             Clean Energy Social is the clean energy professional network. Companies will be able to promote their
             mission and culture, and professionals will be able to research companies, apply for their open positions,
             discover education opportunities, and network with other clean energy professionals. We're excited to
@@ -77,26 +83,48 @@
             vehicles, bio-fuels, corporate sustainability, and more.
           </p>
 
-          <p>
+          <p class="lato">
             Ten years ago, I wanted nothing more than to join the clean energy industry. It almost didn’t happen for me.
             There were no resources for clean energy job opportunities and I had no idea where to start. I don’t feel a
             lot has changed in that regard since then, and I’ve been left to wonder about how many great candidates our
             industry has lost as a result. With Clean Energy Social, we’re going to make sure we change that.
           </p>
         </div>
+
+        <div class="col-12 col-lg-4">
+          <h2 class="Lato">
+            Find Me Here:
+          </h2> 
+
+          <ul>
+            <li> <a href="https://www.linkedin.com/in/jessetruax" target="_blank"> LinkedIn</a> </li>
+            <li> <a href="https://github.com/CESJesse" target="_blank"> GitHub </a> </li>
+            <li> <a href="https://cleanenergysocial.com/about" target="_blank">Clean Energy Social </a> </li>
+            <li> <a href="https://www.solarenergy.org/organization-info/" target="_blank"> Solar Energy International </a></li>
+
+          </ul>
+
+        </div>
+
       </div>
 
+
+      </div>
     </div>
   </Main>
 
   <Footer>
-    <h1 class="col-12">
+    <div class="col-12">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
       </nav>
-    </h1>
+    </div>
   </Footer>
 
-  <!-- Enter javascript -->
+  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 

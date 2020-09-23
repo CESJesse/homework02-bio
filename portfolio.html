@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
     <title>Jesse Truax | About</title>
 </head>
-<body>
+
+<body class="p-3 mb-2 bg-info text-white">
     
-  <Header class="container-fluid">
-    <h1=class="col-12">
+  <Header id="header">
+    <div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">Jesse Truax</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,42 +31,42 @@
           </ul>
         </div>
       </nav>
-    </h1>
+    </div>
   </Header>
 
-  <Main>
+  <Main class="p-3 mb-2 bg-light text-dark">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-sm-4">
+        <div class="col-12 col-sm-4" id="border">
           <img src="assets/images/clean_energy_social.png" class="img-fluid" alt="responsive image" alt="Clean Energy Social">
 
-          <h3>
+          <h3 class="lato">
             Clean Energy Social
           </h3>
 
-          <p>
+          <p class="lato" id="centerp">
             Concepted and founded Clean Energy Social, the clean energy professional network, in 2020.  Current and aspiring clean energy professionals can research clean energy employers, apply for jobs, discover training opportunities, and network with other clean energy professionals.
           </p>
         </div>
 
-        <div class="col-12 col-sm-4">
+        <div class="col-12 col-sm-4" id="border">
           <img src="assets/images/solar_energy_international.png" class="img-fluid" alt="responsive image" alt="Solar Energy International">
-          <h3>
+          <h3 class="lato"> 
             Solar Energy International
           </h3>
 
-          <p>
+          <p class="lato" id="centerp">
             Joined the Board of Directors of Solar Energy International in 2020.  Solar Energy International has provided industry-leading technical training and expertise to over 70,000 students and alumni, with a goal of training 272,500 students and alumni by 2025.  
           </p>
         </div>
 
-        <div class="col-12 col-sm-4">
+        <div class="col-12 col-sm-4" id="border">
           <img src="assets/images/solar_marketing_experts.png" class="img-fluid" alt="responsive image" alt="Solar Marketing Experts">
-          <h3>
+          <h3 class="lato">
             Solar Marketing Experts
           </h3>
 
-          <p>
+          <p class="lato" id="centerp">
             Concepted and founded Solar Marketing Experts, a solar customer acquisition marketing agency, in 2016. Our proven digital advertising model has generated 1,500,000+ residential solar leads over the past four years, worth an estimated $300,000,000 in contracted revenue.
           </p>
         </div>
@@ -72,37 +75,37 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-12 col-sm-4">
+        <div class="col-12 col-sm-4" id="border">
           <img src="assets/images/clean_energy_collective.png" class="img-fluid" alt="responsive image" alt="Clean Energy Collective">
 
-          <h3>
+          <h3 class="lato">
             Clean Energy Collective
           </h3>
 
-          <p>
+          <p class="lato" id="centerp">
             Joined Clean Energy Collective as a Co-Owner and Vice President of Marketing in 2013. Over two years, I helped this startup into its high growth stage.  In 2014, our marketing efforts resulted in significant sales growth and a #194 ranking on the Inc. 5000 list of fastest growing private companies.
           </p>
         </div>
 
-        <div class="col-12 col-sm-4">
+        <div class="col-12 col-sm-4" id="border">
           <img src="assets/images/solarreviews.png" class="img-fluid" alt="responsive image" alt="SolarReviews">
-          <h3>
+          <h3 class="lato">
             SolarReviews
           </h3>
 
-          <p>
+          <p class="lato" id="centerp">
             Concepted and founded SolarReviews, the industry's leading consumer reviews website, in 2012.  Developed the company into the most successful, well respected customer acquisition websites, with hundreds of solar installer partners, 20,000+ consumer reviews, and over 1,000,000 unique visitors annually.   
           </p>
         </div>
 
-        <div class="col-12 col-sm-4">
+        <div class="col-12 col-sm-4" id="border">
           <img src="assets/images/colorado_renewable_energy_society.png" class="img-fluid" alt="responsive image" alt="Colorado Renewable Energy Society">
-          <h3>
-            Colorado Renewable Energy Society
+          <h3 class="lato">
+            CRES
           </h3>
 
-          <p>
-            Joined the Board of Directors of Colorado Renewable Energy Society in 2009. Colorado Renewable Energy Society drives environmental and economic benefits for Colorado through clean energy education, policy advocacy, and community engagement.
+          <p class="lato" id="centerp">
+            Joined the Board of Directors of Colorado Renewable Energy Society in 2009. Colorado Renewable Energy Society drives environmental, social and economic benefits for Colorado through clean energy education, policy advocacy, community engagement, and promoting the adoption of renewable energy technologies.
           </p>
         </div>
       </div>
@@ -110,13 +113,17 @@
   </Main>
 
   <Footer>
-    <h1 class="col-12">
+    <section class="col-12">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
       </nav>
-    </h1>
+    </section>
   </Footer>
 
-<!-- Enter javascript -->
+<!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 </html>
